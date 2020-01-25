@@ -4,10 +4,6 @@ function setup() {
 
 function draw() {
 	background(255);
-	textSize(32);
-	text(hour(), 10, 30);
-	text(minute(), 10, 60);
-	text(second(), 10, 90);
 
 	translate(width/2, height/2);
 	xval = 40;
